@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Profile</title>
+        <meta name="description" content="テキストテキストテキストテキスト">
+        <!-- description=説明 webページの概要として表示されることがある -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- viewport=レスポンシブwebデザインを実現 表示領域の幅をデバイスの幅に合わせる 初期ズームレベル -->
+        <link rel="icon" href="img/favicon.ico">
+        <!-- ファビコンを指定 -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <!-- 文書データの見栄えに関する情報 リセット用のCSS=ブラウザでの見栄えの差異をなくす-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- ヘッダー -->
+        <header id="header" class="wrapper">
+            <h1 class="site-title">
+                <a href="index.html"><img decoding="async" src="img/logo.svg" alt="Profile"></a>
+                <!-- 非同期でデコードを行う -->
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#bicycle">bicycle</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- メインビジュアル -->
+            <div id="mainvisual">
+                <img decoding="async" src="img/mainvisual.jpg" alt="テキストテキストテキスト">
+            </div>
+
+            <!-- Aboutセクション -->
+            <section id="about" class="wrapper">
+                <h2 class="section-title">About</h2>
+                <div class="content">
+                    <img decoding="async" src="img/about.jpg" alt="テキストテキストテキスト">
+                        <div class="text">
+                            <h3 class="content-title">タイトルタイトル</h3>
+                                <p>
+                                    テキストテキストテキストテキストテキストテキストテキスト<br>
+                                    テキストテキストテキストテキストテキストテキストテキスト<br>
+                                    テキストテキストテキストテキストテキストテキストテキスト
+                                </p>
+                        </div>
+                </div>
+            </section>
+
+            <!-- bicyleセクション -->
+            <section id="bicyle" class="wrapper">
+
+            </section>
+        </main>
+
+        <!-- フッター -->
+        <footer id="footer">
+
+        </footer>
+    </body>
+</html>
